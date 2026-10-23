@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block title %}Dental Clinic Gallery | {{ config.CLINIC_NAME }}{% endblock %}
+
+{% block content %}
+<section class="page-hero">
+    <div class="container">
+        <span class="eyebrow">Our Clinic</span>
+        <h1>Srii Balaji Dental Clinic Gallery</h1>
+        <p>Take a look inside our dental clinic and treatment facilities in Tenkasi.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="gallery-grid">
+            <img loading="lazy" src="{{ url_for('static', filename='images/gallery/clinic-1.jpeg') }}" alt="Srii Balaji Dental Clinic treatment room in Tenkasi">
+            <img loading="lazy" src="{{ url_for('static', filename='images/gallery/clinic-2.jpeg') }}" alt="Dental treatment equipment at Srii Balaji Dental Clinic">
+            <img loading="lazy" src="{{ url_for('static', filename='images/gallery/clinic-3.jpeg') }}" alt="Dental chair and equipment at Srii Balaji Dental Clinic Tenkasi">
+            <img loading="lazy" src="{{ url_for('static', filename='images/gallery/clinic-4.jpeg') }}" alt="Inside Srii Balaji Dental Clinic Tenkasi">
+        </div>
+    </div>
+</section>
+{% endblock %}
