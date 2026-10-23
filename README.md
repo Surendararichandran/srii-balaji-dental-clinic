@@ -47,3 +47,4 @@ The starter includes CSRF protection and form rate limiting. Production deployme
 ## SEO
 
 Dynamic `robots.txt` and `sitemap.xml` routes are included. Set `CANONICAL_BASE_URL` to the live domain. Each major page has page-specific titles/descriptions and treatment pages include local-city metadata.
+# srii-balaji-dental-clinic
